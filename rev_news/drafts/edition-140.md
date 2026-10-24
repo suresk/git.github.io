@@ -39,6 +39,11 @@ __Various__
 
 
 __Light reading__
++ [Reading git status without running git](https://getgitmon.com/guides/read-git-status-without-running-git)
+  by Spencer Uresk on the GitMon website.
+  How a macOS menu bar app reads the index, refs and pack files directly,
+  and uses the index's cache-tree extension to avoid reading HEAD's tree at all
+  in the common case where nothing is staged.
 
 <!---
 __Easy watching__
